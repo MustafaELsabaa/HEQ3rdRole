@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DashBoard Admin </title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+
+    <!-- Custom styles for this template-->
+    <link href="css/dashboard-admin.css" rel="stylesheet">
+    <link href="css/Styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.anychart.com/releases/8.6.0/css/anychart-ui.min.css" />
+
+</head>
+
+<body id="page-top" class="RedTheme">
+
+
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+     
+        <div id="content-wrapper">
+
+            <div class="container-fluid">
+
+             
+
+                <!-- Area Chart -->
+                <div class="row" id="sortable">
+                    <div class="col-6">
+                        <div class="card mb-3 ui-state-default">
+                            <div class="card-header">
+                                <i class="fas fa-chart-area"></i> Line Chart
+                                <button class="showOrHide">
+                                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                </button>
+                                <button class="ExpandOrCollapse">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+
+                                </button>
+
+
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <select id='toChangeLineChart' class="form-control">
+                                            <option value="1">First Chart</option>
+                                            <option value="2">Second Chart</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="lineChart" width="800" height="450"></div>
+                            </div>
+                            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card mb-3 ui-state-default">
+
+                            <div class="card-header">
+                                <i class="fas fa-chart-bar"></i> Area Bar
+                                <button class="showOrHide">
+                                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                </button>
+                                <button class="ExpandOrCollapse">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+
+                                </button>
+
+                            </div>
+                            <div class="card-body">
+                                    <div class="row">
+                                            <div class="form-group">
+                                                <select id='toChangeBarChart' class="form-control">
+                                                    <option value="1">First Chart</option>
+                                                    <option value="2">Second Chart</option>
+        
+                                                </select>
+                                            </div>
+                                        </div>
+                                <div id="BarChart" width="800" height="450"></div>
+                                                        </div>
+                            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                        </div>
+                    </div>
+
+                </div>
+       
+                <!-- DataTables  -->
+              
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+
+            <!-- Sticky Footer -->
+      
+
+        </div>
+        <!-- /.content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Scroll to Top Button-->
+   
+    <!-- Logout Modal-->
+   
+    <!-- Bootstrap core JavaScript-->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    
+
+    <!-- Page level plugin JavaScript-->
+    <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
+    <!-- <script src="vendor/datatables/jquery.dataTables.js"></script> -->
+    <!-- <script src="vendor/datatables/dataTables.bootstrap4.js"></script> -->
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/anychart-base.min.js"></script>
+    <script src="js/anychart-exports.min.js"></script>
+    <script src="js/anychart-ui.min.js"></script>
+    <script src="js/anychart-data-adapter.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-cartesian.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-base.min.js"></script>
+
+</body>
+
+</html>
